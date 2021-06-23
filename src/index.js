@@ -61,6 +61,7 @@ try {
       username,
       attachments: [
         {
+          mrkdwn_in: ["fields", "text"],
           fallback: text,
           text,
           color,
