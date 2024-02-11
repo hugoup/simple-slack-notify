@@ -1,6 +1,6 @@
 {
 	"name": "simple-slack-notify",
-	"version": "1.0.5",
+	"version": "1.6.0",
 	"description": "Slack notification action that just works",
 	"author": "Adam K Dean <adamkdean@googlemail.com>",
 	"license": "MIT",
@@ -26,10 +26,10 @@
 	"dependencies": {
 		"@actions/core": "^1.2.6",
 		"@actions/github": "^4.0.0",
-		"@slack/webhook": "^5.0.3"
+		"@slack/webhook": "^5.0.3",
+		"@vercel/ncc": "^0.38.1"
 	},
 	"devDependencies": {
-		"@zeit/ncc": "^0.22.3",
 		"eslint": "^7.5.0",
 		"eslint-config-standard": "^14.1.1",
 		"eslint-plugin-import": "^2.22.0",
